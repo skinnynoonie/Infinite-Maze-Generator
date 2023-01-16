@@ -1,0 +1,6 @@
+name: Skinnynoonie
+version: '${project.version}'
+main: me.skinnynoonie.Main
+api-version: 1.19
+commands:
+  config:
