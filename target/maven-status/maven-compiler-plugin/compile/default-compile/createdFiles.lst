@@ -1,8 +1,0 @@
-me\skinnynoonie\listeners\ChatListener.class
-me\skinnynoonie\commands\ConfigCommand.class
-me\skinnynoonie\Main.class
-me\skinnynoonie\miniconfig\Config.class
-me\skinnynoonie\mazegenerator\MazeGenerator.class
-me\skinnynoonie\listeners\PlayerConnectionListener.class
-me\skinnynoonie\listeners\BlockListener.class
-me\skinnynoonie\listeners\MovementListener.class
