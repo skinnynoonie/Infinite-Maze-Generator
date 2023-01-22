@@ -35,6 +35,7 @@ public class ConfigCommand implements CommandExecutor {
             }
             else if (configKey.equals("wallblocktype")) {
                 Material value = Material.getMaterial(args[1]);
+                if(value == null) return true;
                 Config.WALL_BLOCK_TYPE = value;
                 sender.sendMessage("Set WALL_BLOCK_TYPE to " + value);
                 for(MazeGenerator mazeGenerator : PlayerConnectionListener.mazeGeneratorArranger.values())
